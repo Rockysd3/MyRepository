@@ -37,14 +37,10 @@ finalGrade =(num1,num2,num3) =>{
 } 
 }
 
-
-
 // a function that takes two strings and returns a sentence
 reportingForDuty =(firstName,lastName)=>{
   return firstName+' '+lastName+' reporting for duty!';
 }
-
-
 
 //a function that takes two parameters one is the weight of the object on earth and the second is the name of ht eplanet and calulates the weight of the object on different planets.
 calculateWeight=(earthWeight,planet)=>{
@@ -68,7 +64,6 @@ default :
 return 'Invalid Planet Entry. Try: Mercury, Venus, Mars, Jupiter, or Saturn.';
 }
 }
-
 
 // a function that checks if the value is truthy or falsy
 truthyOrFalsy=(num)=>{
@@ -147,4 +142,3 @@ switch (string){
   return '|_(* ~ *)_|';
 }
 }
-
