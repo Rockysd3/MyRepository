@@ -1,0 +1,7 @@
+// today's weather forecast
+const kelvin = 293;
+// we converted from kelvin to celsius
+let celsius = kelvin - 273;
+// we converted the celsius to fahrenheit and because we will get a decimal number we used the floor method to make it pretty
+let fahrenheit = Math.floor(celsius *(9/5) + 32);
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit`);
